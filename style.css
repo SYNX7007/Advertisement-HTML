@@ -6,10 +6,12 @@
 }
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     min-height: 100vh;
-    background: #333;
+
+    background: #B2FEFA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #006666 , #ffffcc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #006666 , #ffffcc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 ul {
     display: flex;
@@ -22,6 +24,7 @@ ul li {
 ul li a {
     display: inline-block;
     position: relative;
+    
     font-size: 2rem;
     color: #fff;
     transition: 1s;
@@ -38,13 +41,4 @@ ul li:hover ~ .cursor {
     width: 60px;
     height: 60px;
     border:2px solid aqua;
-}
-footer {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    background-color: #000000;
-    color: white;
-    text-align: center;
 }

@@ -42,3 +42,12 @@ ul li:hover ~ .cursor {
     height: 60px;
     border:2px solid aqua;
 }
+
+#content {
+    position: relative;
+}
+#content img {
+    position: absolute;
+    top: 0px;
+    right: -1100px;
+}

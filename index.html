@@ -26,11 +26,33 @@
       </li>
       <div class="cursor"></div>
     </ul>
-    
+    <br><br>
+
     <div id = 'content'>
-    <img src ="./Images/logo.jpg" alt="logo.jpg" height="100" width="200" />
+      <img src ="./Images/logo.jpg" alt="logo.jpg" height="100" width="200" />
+    </div>
+
+    <div class="wrapper">
+      <!--       the data part is added for more styling on card -->
+            <div
+              class="card"
+              data-tilt
+              data-tilt-glare
+              data-tilt-max-glare="0.8"
+              data-tilt-scale="1.1"
+            >
+              <div class="image">
+                <img
+                  src="./Images/p.jpg"
+                  alt="p.jpg"
+                />
     </div>
     
     <script src="./app.js" async defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

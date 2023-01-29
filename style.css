@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -49,14 +51,23 @@ ul li:hover ~ .cursor {
 #content img {
     position: absolute;
     top: 0px;
-    right: -1100px;
+    right: -800px;
 }
+
+.text {
+    font-family: 'Solitreo', cursive;
+    font-size: 55px;
+    position: relative;
+    color: #000000;
+    right: 450px;
+  }
 
 .wrapper {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 475px;
     flex-direction: column;
     margin: 50px 0;
     transform-style: preserve-3d;
@@ -71,7 +82,7 @@ ul li:hover ~ .cursor {
     transform-style: preserve-3d;
   }
   .wrapper .card:hover {
-    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.2);
   }
   .wrapper .card .image {
     position: absolute;
@@ -85,3 +96,4 @@ ul li:hover ~ .cursor {
     width: 400px;
     height: 400px;
   }
+
